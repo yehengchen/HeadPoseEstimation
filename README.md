@@ -53,6 +53,7 @@ Some things that will be added:
 If you find Hopenet useful in your research please consider citing:
 
 ## References:
+[Paper][Fine-Grained Head Pose Estimation Without Keypoints](https://arxiv.org/abs/1710.00925)
 ```
 @article{DBLP:journals/corr/abs-1710-00925,
   author    = {Nataniel Ruiz and
