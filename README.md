@@ -8,10 +8,6 @@
 
 For details about the method and quantitative results please check the [paper](https://arxiv.org/abs/1710.00925).
 
-<div align="center">
-<img src="conan-cruise.gif" /><br><br>
-</div>
-
 **new** [GoT trailer example video](https://youtu.be/OZdOrSLBQmI)
 
 **new** [Conan-Cruise-Car example video](https://youtu.be/Bz6eF4Nl1O8)
@@ -53,7 +49,7 @@ Some things that will be added:
 If you find Hopenet useful in your research please consider citing:
 
 ## References:
-### Paper - [Fine-Grained Head Pose Estimation Without Keypoints](https://arxiv.org/abs/1710.00925)
+#### For details about the method and quantitative results please check the [paper](https://arxiv.org/abs/1710.00925).
 ```
 @article{DBLP:journals/corr/abs-1710-00925,
   author    = {Nataniel Ruiz and
