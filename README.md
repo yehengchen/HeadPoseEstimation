@@ -17,11 +17,11 @@ To use please install [PyTorch](http://pytorch.org/) and [OpenCV](https://opencv
 
 To test on a video using dlib face detections (center of head will be jumpy):
 ```bash
-python code/test_on_video_dlib.py --snapshot PATH_OF_SNAPSHOT --face_model PATH_OF_DLIB_MODEL --video PATH_OF_VIDEO --output_string STRING_TO_APPEND_TO_OUTPUT --n_frames N_OF_FRAMES_TO_PROCESS --fps FPS_OF_SOURCE_VIDEO
+python3 code/test_on_video_dlib.py --snapshot PATH_OF_SNAPSHOT --face_model PATH_OF_DLIB_MODEL --video PATH_OF_VIDEO --output_string STRING_TO_APPEND_TO_OUTPUT --n_frames N_OF_FRAMES_TO_PROCESS --fps FPS_OF_SOURCE_VIDEO
 ```
 To test on a video using your own face detections (we recommend using [dockerface](https://github.com/natanielruiz/dockerface), center of head will be smoother):
 ```bash
-python code/test_on_video_dockerface.py --snapshot PATH_OF_SNAPSHOT --video PATH_OF_VIDEO --bboxes FACE_BOUNDING_BOX_ANNOTATIONS --output_string STRING_TO_APPEND_TO_OUTPUT --n_frames N_OF_FRAMES_TO_PROCESS --fps FPS_OF_SOURCE_VIDEO
+python3 code/test_on_video_dockerface.py --snapshot PATH_OF_SNAPSHOT --video PATH_OF_VIDEO --bboxes FACE_BOUNDING_BOX_ANNOTATIONS --output_string STRING_TO_APPEND_TO_OUTPUT --n_frames N_OF_FRAMES_TO_PROCESS --fps FPS_OF_SOURCE_VIDEO
 ```
 Face bounding box annotations should be in Dockerface format (n_frame x_min y_min x_max y_max confidence).
 
@@ -49,24 +49,7 @@ Some things that will be added:
 If you find Hopenet useful in your research please consider citing:
 
 ## References:
-#### For details about the method and quantitative results please check the [paper](https://arxiv.org/abs/1710.00925).
-```
-@article{DBLP:journals/corr/abs-1710-00925,
-  author    = {Nataniel Ruiz and
-               Eunji Chong and
-               James M. Rehg},
-  title     = {Fine-Grained Head Pose Estimation Without Keypoints},
-  journal   = {CoRR},
-  volume    = {abs/1710.00925},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1710.00925},
-  archivePrefix = {arXiv},
-  eprint    = {1710.00925},
-  timestamp = {Wed, 01 Nov 2017 19:05:43 +0100},
-  biburl    = {http://dblp.org/rec/bib/journals/corr/abs-1710-00925},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
-}
-```
+For details about the method and quantitative results please check the [paper](https://arxiv.org/abs/1710.00925).
 
 *Nataniel Ruiz*, *Eunji Chong*, *James M. Rehg*
 
