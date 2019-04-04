@@ -4,10 +4,6 @@
   <img src="https://i.imgur.com/K7jhHOg.png" width="380"><br><br>
 </div>
 
-<div align="center">
-  <img src="https://github.com/chenyeheng/SmartCar-HeadPose/blob/master/output/video/output_test.avi" width="380"><br><br>
-</div>
-
 **Hopenet** is an accurate and easy to use head pose estimation network. Models have been trained on the 300W-LP dataset and have been tested on real data with good qualitative performance.
 
 For details about the method and quantitative results please check the [paper](https://arxiv.org/abs/1710.00925).
