@@ -26,7 +26,7 @@ python3 code/test_on_video_dockerface.py --snapshot PATH_OF_SNAPSHOT --video PAT
 ```
 Face bounding box annotations should be in Dockerface format (n_frame x_min y_min x_max y_max confidence).
 
-Pre-trained models:
+### Pre-trained models:
 
 [300W-LP, alpha 1](https://drive.google.com/open?id=1EJPu2sOAwrfuamTitTkw2xJ2ipmMsmD3)
 
