@@ -18,7 +18,7 @@ To use please install [PyTorch](http://pytorch.org/) and [OpenCV](https://opencv
 # Getting Started:
 To test on a video using dlib face detections (DLIB_MODEL: mmod_human_face_detector.dat):
 ```bash
-python3 code/test_on_video_dlib.py --snapshot PATH_OF_SNAPSHOT --face_model PATH_OF_DLIB_MODEL --video PATH_OF_VIDEO --output_string STRING_TO_APPEND_TO_OUTPUT --n_frames N_OF_FRAMES_TO_PROCESS --fps FPS_OF_SOURCE_VIDEO
+python3 code/test_on_video_dlib.py --snapshot PATH_OF_PRE-TRAINED-MODELS --face_model PATH_OF_DLIB_MODEL --video PATH_OF_VIDEO --output_string STRING_TO_APPEND_TO_OUTPUT --n_frames N_OF_FRAMES_TO_PROCESS --fps FPS_OF_SOURCE_VIDEO
 ```
 To test on a video using your own face detections (we recommend using [dockerface](https://github.com/natanielruiz/dockerface), center of head will be smoother):
 ```bash
