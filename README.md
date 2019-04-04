@@ -15,10 +15,7 @@ For details about the method and quantitative results please check the [paper](h
 
 To use please install [PyTorch](http://pytorch.org/) and [OpenCV](https://opencv.org/) (for video) - I believe that's all you need apart from usual libraries such as numpy. You need a GPU to run Hopenet (for now).
 
-<div align="center">
-  <img src="https://github.com/chenyeheng/SmartCar-HeadPose/blob/master/output/video/test.gif
-" width="380"><br><br>
-</div>
+![test](https://github.com/chenyeheng/SmartCar-HeadPose/blob/master/output/video/test.gif")
 
 To test on a video using dlib face detections (center of head will be jumpy):
 ```bash
