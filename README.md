@@ -14,6 +14,7 @@ For details about the method and quantitative results please check the [paper](h
 
 
 To use please install [PyTorch](http://pytorch.org/) and [OpenCV](https://opencv.org/) (for video) - I believe that's all you need apart from usual libraries such as numpy. You need a GPU to run Hopenet (for now).
+***
 
 # Getting Started:
 To test on a video using dlib face detections (DLIB_MODEL: mmod_human_face_detector.dat):
