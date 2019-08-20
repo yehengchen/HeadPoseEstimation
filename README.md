@@ -1,7 +1,7 @@
 # Hopenet #
 
 <div align="center">
-  <img src="https://i.imgur.com/K7jhHOg.png" width="380"><br><br>
+  <img src="https://i.imgur.com/K7jhHOg.png" width="240"><img src="https://github.com/yehengchen/HeadPoseEstimation/blob/master/output/video/test.gif" width="240"><br><br>
 </div>
 
 **Hopenet** is an accurate and easy to use head pose estimation network. Models have been trained on the 300W-LP dataset and have been tested on real data with good qualitative performance.
